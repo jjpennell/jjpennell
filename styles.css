@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document 
+EA3 Architecture Templates
+Author:  Joe Pennell
+         JJP Tech
+         Copyright 2021
+         joe@jjpennell.com
+*/
+
+html, body {
+	min-height: 100%;
+	margin: 10px 0px 0px 0px;
+}
+
+.full-height {
+	height: 100%;
+	padding: 0px 0px 0px 0px;
+}
+.content {
+	min-height: 400px;	
+	height, width: 100%;
+	padding: 30px 10px 20px 10px;
+}
+.content h1 {
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+}
+.content h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/* Set standards for the sections of the page */
+.title {
+	padding: 20px 0px 0px 40px;
+	/*margin-left: -10px;*/
+	margin-right: -10px;
+	position: fixed;
+	top: 0px;
+	/*bottom: 0px;
+	height: 100px;
+	width: 105%;*/
+}
+.title h1 {
+	font-size: 28px;
+	padding: 0px 0px 5px 20px;
+}
+.title p {
+	font-size: 10px;
+}
+
+/* Profile - left bar side */
+.profile {
+	padding: 0px 0px 0px 20px;
+	margin-left: 20px;
+}
+.profile h1 {
+	font-size: 14px;
+	font-weight: bolder;
+	width: 150px;
+}
+.profile p {
+	font-size: 10px;
+	width: 150px;
+}
+.profile a {
+	padding: 10px 0px 10px 0px;
+}
+/* Navigator left side section */
+.menu {
+	padding: 0px 0px 0px 0px;
+	width: 14%;
+	min-height: 500px;
+	color: black;
+	font-size: 10px;
+}
+.menu ul {
+	display: block;
+	list-style: none;
+	margin-left: 1.0em;
+}
+.menu ul > ul {
+	margin-left: -2.0em;
+}
+
+.menu li, .button {
+	color: black;
+}
+.menu a {
+	color:black;
+}
+.menu a:hover {
+	color: darkred;
+}
+
+table {
+	width: 100%;
+	align-content: center;
+}
+td {
+	align-content: center;
+	align-items:  center;
+}
+
+.footer {
+	left: 0px; 
+	margin-left: 10px;
+	margin-right: 0px;
+	height: 20px;
+	width: 100%;
+	font-size: 6px;
+}
+

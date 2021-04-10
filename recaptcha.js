@@ -1,0 +1,2 @@
+// JavaScript Document
+var RECAPTCHA-SECRET-KEY = "6Lfv4uEZAAAAAHJwFb7LnoT4IDJ14B6pOZ_Aq79k";
